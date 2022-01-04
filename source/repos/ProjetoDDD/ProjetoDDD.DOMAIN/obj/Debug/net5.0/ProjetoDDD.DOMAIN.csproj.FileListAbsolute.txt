@@ -1,0 +1,15 @@
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\bin\Debug\net5.0\ProjetoDDD.DOMAIN.deps.json
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\bin\Debug\net5.0\ProjetoDDD.DOMAIN.dll
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\bin\Debug\net5.0\ref\ProjetoDDD.DOMAIN.dll
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\bin\Debug\net5.0\ProjetoDDD.DOMAIN.pdb
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.csproj.AssemblyReference.cache
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.AssemblyInfo.cs
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.dll
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ref\ProjetoDDD.DOMAIN.dll
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.pdb
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\bin\Debug\net5.0\ProjetoDDD.DOMAIN.runtimeconfig.json
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\bin\Debug\net5.0\ProjetoDDD.DOMAIN.runtimeconfig.dev.json
+C:\Users\arthur.ferreira\source\repos\ProjetoDDD\ProjetoDDD.DOMAIN\obj\Debug\net5.0\ProjetoDDD.DOMAIN.genruntimeconfig.cache
