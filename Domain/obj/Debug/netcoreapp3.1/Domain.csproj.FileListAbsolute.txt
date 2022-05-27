@@ -1,0 +1,10 @@
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\arthur.ferreira\source\repos\TCC\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
