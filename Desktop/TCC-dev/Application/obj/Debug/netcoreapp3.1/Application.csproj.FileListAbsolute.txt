@@ -76,6 +76,7 @@ C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\App
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Application.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Application.pdb
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -97,6 +98,8 @@ C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Mic
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\bin\Debug\netcoreapp3.1\MySqlConnector.dll
@@ -138,6 +141,8 @@ C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\App
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\staticwebassets\Application.StaticWebAssets.Manifest.cache
+C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\staticwebassets\Application.StaticWebAssets.xml
+C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\scopedcss\bundle\Application.styles.css
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\Application.RazorTargetAssemblyInfo.cache
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 C:\Users\arthur.ferreira\Desktop\TCC-dev\Application\obj\Debug\netcoreapp3.1\Application.dll

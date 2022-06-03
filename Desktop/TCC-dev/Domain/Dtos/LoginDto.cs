@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Domain.Dtos
 {
     public class LoginDto
     {
         [Required(ErrorMessage = "Email é um campo obrigatório para login")]
-        [EmailAddress(ErrorMessage = "E-mail em formato inválido.")]
+        [EmailAddress(ErrorMessage = "Email em formato inválido.")]
         [StringLength(100, ErrorMessage = "Email deve ter no máximo {1} caracteres.")]
         public string Email { get; set; }
     }

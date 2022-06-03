@@ -1,5 +1,6 @@
 ﻿using Domain.Entidades;
 using Domain.Interfaces.Services.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Net;
@@ -19,7 +20,9 @@ namespace Application.Controllers
         {
             _service = service;
         }
+        // http://localhost:5000/api/users/
 
+        [Authorize("Bearer")]
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
@@ -37,7 +40,8 @@ namespace Application.Controllers
             }
         }
 
-        // http://localhost:5000/api/users/id
+        
+        [Authorize("Bearer")]
         [HttpGet]
         [Route("{id}", Name = "GetWithId")]
 
@@ -58,6 +62,7 @@ namespace Application.Controllers
 
         }
 
+        [Authorize("Bearer")]
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] UserEntity user)
         {
@@ -83,6 +88,7 @@ namespace Application.Controllers
             }
         }
 
+        [Authorize("Bearer")]
         [HttpPut]
         public async Task<ActionResult> Put([FromBody] UserEntity user)
         {
@@ -107,6 +113,8 @@ namespace Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
+
+        [Authorize("Bearer")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {

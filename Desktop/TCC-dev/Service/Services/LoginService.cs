@@ -17,9 +17,9 @@ namespace Service.Services
     {
         private IUserRepository _repository;
 
-        public SigningConfigurations _signingConfigurations;
+        private SigningConfigurations _signingConfigurations;
 
-        public TokenConfiguration _tokenConfiguration;
+        private TokenConfiguration _tokenConfiguration;
 
         private IConfiguration _configuration { get; }
 
@@ -33,7 +33,7 @@ namespace Service.Services
             _configuration = configuration;
         }
 
-        public async Task<object> FindByLogin(UserEntity user)
+        public async Task<object> FindByLogin(LoginDto user)
         {
             var baseUser = new UserEntity();
             if (user != null && !string.IsNullOrWhiteSpace(user.Email))
@@ -49,8 +49,8 @@ namespace Service.Services
                 }
                 else
                 {
-                    ClaimsIdentity identity = new ClaimsIdentity(
-                        new GenericIdentity(user.Email),
+                    var identity = new ClaimsIdentity(
+                        new GenericIdentity(baseUser.Email),
                         new[]
                         {
                             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
@@ -62,10 +62,11 @@ namespace Service.Services
                     DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfiguration.Seconds);
 
                     var handler = new JwtSecurityTokenHandler();
-                    string token = CreateToken(identity, createDate, expirationDate, handler);
-                    return SuccessObject(createDate, expirationDate, token, baseUser);
+                    string token = CreateToken( identity, createDate, expirationDate, handler);
+                    return SuccessObject(createDate, expirationDate, token, user);
                 }
             }
+
             else
             {
                 return new
@@ -74,6 +75,7 @@ namespace Service.Services
                     message = "Falha ao autenticar"
                 };
             }
+
         }
 
         private string CreateToken(ClaimsIdentity identity, DateTime createDate, DateTime expirationDate, JwtSecurityTokenHandler handler)
@@ -92,7 +94,7 @@ namespace Service.Services
             return token;
         }
 
-        private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, UserEntity user)
+        private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, LoginDto user)
         {
             return new
             {
@@ -101,10 +103,10 @@ namespace Service.Services
                 expiration = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 accessToken = token,
                 userName = user.Email,
-                name = user.Nome,
                 message = "Usuário Logado com sucesso"
             };
-        }
 
+        }
+        
     }
 }

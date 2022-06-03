@@ -1,6 +1,6 @@
 ﻿using Domain.Dtos;
-using Domain.Entidades;
 using Domain.Interfaces.Services.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Net;
@@ -12,21 +12,23 @@ namespace Application.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
+
+        [AllowAnonymous]
         [HttpPost]
-        public async Task<object> Login([FromBody] UserEntity userEntity, [FromServices] ILoginService service)
+        public async Task<object> Login([FromBody] LoginDto loginDto, [FromServices] ILoginService service)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            if (userEntity == null)
+            if (loginDto == null)
             {
                 return BadRequest();
             }
 
             try
             {
-                var result = await service.FindByLogin(userEntity);
+                var result = await service.FindByLogin(loginDto);
                 if (result != null)
                 {
                     return Ok (result);
